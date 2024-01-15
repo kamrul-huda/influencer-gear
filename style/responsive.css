@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+
+    nav,
+    nav ul,
+    .header,
+    .online-shop-image,
+    .feature,
+    .collection {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    .collection .collection-image {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .header-text {
+        width: 90%;
+    }
+
+    .online-shop-image {
+
+        max-width: 90%;
+        margin: 100px auto;
+        padding: 30px;
+        border: 1px solid rgb(241, 237, 237);
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+    }
+
+    .online-shop-image img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .feature {
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .feature-image img {
+        width: 100%;
+    }
+
+}
